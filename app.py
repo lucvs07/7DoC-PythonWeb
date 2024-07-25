@@ -16,9 +16,4 @@ data = json.loads(json.dumps(response.json()))
 # Lista Traduzida :  Nome e Afiliação
 print(f'{'Nome'.ljust(25)} | {'Afiliação'.ljust(25)}')
 for personagem in data :
-    valor_padrao = 'Não Possui'
-    
-    if 'affiliation' in personagem:
-        print(f'{translator.translate(personagem['name']).ljust(25)} | {translator.translate(personagem['affiliation']).ljust(25)}')
-    else :
-        print(f'{translator.translate(personagem['name']).ljust(25)} | {'Não Possui'.ljust(25)}')
+    print(f'{translator.translate(personagem.get('name', '')).ljust(25)} | {translator.translate(personagem.get('affiliation', 'Não Possui')).ljust(25)}')

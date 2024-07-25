@@ -31,6 +31,7 @@ This is a solution to the [7 days of Code - Python Web](https://7daysofcode.io/m
 - Googletrans: [See the Framework Documentation](https://py-googletrans.readthedocs.io/en/latest/?utm_medium=email&_hsenc=p2ANqtz-_KfK3A64FgSR7nGecwB4GZaTsdyFfHlZ07HhrhNh2jAEdrHXUKcNY9zqj5td_mlI2CJa2OtvbP0K8c7JMqpgf5X7kTkg&_hsmi=302796911&utm_content=302796911&utm_source=hs_automation)
 - Framework Translate: [See the Framework Documentation](https://pypi.org/project/translate/)
 - DeepL Translator API: [See the Framework Documentation](https://github.com/DeepLcom/deepl-python)
+- Django Framework: [See the Framework Documentation](https://docs.djangoproject.com/en/5.0/)
 
 You can see the versions from the frameworks that I used in requirements.txt !
 
@@ -56,7 +57,8 @@ You can see the versions from the frameworks that I used in requirements.txt !
 ![](./screenshot/day%202%20-%20translations.png)
 
 ### Day 3
-...
+- Create and Configure a Django Project and APP
+![](./screenshot/day%203%20-%20django%20web.png)
 
 ### Day 4
 ...
